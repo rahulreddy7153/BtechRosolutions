@@ -95,29 +95,6 @@
   --shadow-lg: 0 24px 60px -18px rgba(0, 0, 0, 0.6);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg: #04121f;
-    --bg-soft: #071b2c;
-    --surface: #0b2c47;
-    --surface-raised: #0f3a5c;
-    --ink: #eaf6fc;
-    --ink-soft: #b7d9ea;
-    --muted: #7fa8c2;
-    --border: rgba(234, 246, 252, 0.12);
-
-    --blue-100: #123a5c;
-    --primary: #4fd6f0;
-    --primary-strong: #8ee9f7;
-    --accent: #22d3ee;
-    --accent-strong: #67e8f9;
-
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 8px 24px -8px rgba(0, 0, 0, 0.5);
-    --shadow-lg: 0 24px 60px -18px rgba(0, 0, 0, 0.6);
-  }
-}
 
 /* ============================================================
    RESET + BASE
